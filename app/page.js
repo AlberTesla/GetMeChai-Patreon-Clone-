@@ -47,6 +47,7 @@ export default function Home() {
         </div>
       </div>
     </div>
+    <div className="h-1 bg-blue-950"></div>
     <div className="text-white flex flex-col justify-center items-center py-10 gap-10">
       <div className="font-bold text-3xl">Your Fans can buy you a Chai</div>
       <div className="buttons flex flex-row w-[50%] justify-between items-center">
@@ -78,6 +79,11 @@ export default function Home() {
           </p>
         </div>
       </div>
+    </div>
+    <div className="h-1 bg-blue-950"></div>
+    <div className="flex flex-col justify-center items-center text-white space-y-10 pt-10 pb-20">
+      <div className="font-bold text-3xl">Learn more about us</div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/7IHHLHu600g?si=ofW5X4RRjFW51I-N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </>
 }
